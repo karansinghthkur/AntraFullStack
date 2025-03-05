@@ -1,0 +1,14 @@
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/bin/Debug/net9.0/ConsoleApp3
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/bin/Debug/net9.0/ConsoleApp3.deps.json
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/bin/Debug/net9.0/ConsoleApp3.runtimeconfig.json
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/bin/Debug/net9.0/ConsoleApp3.dll
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/bin/Debug/net9.0/ConsoleApp3.pdb
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.AssemblyInfoInputs.cache
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.AssemblyInfo.cs
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.csproj.CoreCompileInputs.cache
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.dll
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/refint/ConsoleApp3.dll
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.pdb
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.genruntimeconfig.cache
+/Users/karansinghthakur/VAFeb2025/C#/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ref/ConsoleApp3.dll

@@ -1,0 +1,81 @@
+1.
+->telephone number - string
+-> height - float
+-> age - int
+->gender- enum
+->salary- decimal
+->ISBN- string
+->price - decimal
+->weight - float
+->population - long
+->stars - double
+-> employees- int
+
+2. Value type vs Reference Type
+
+->Value type :it stores actual data directly in memory. When assigned to a new variable, a copy of value is created.
+   i)stored in stack
+   ii)hold actual value not references
+   iii)cannot be null unless nullable is used(?)
+   iv)automatically deallocated when out of the scope
+   eg:int, double,float, bool
+   
+->Reference types store a memory reference instead of actual data. When assigned to a new variable, both variables refer to the same object in memory.
+    i) stored in the heap
+    ii)Holds a reference to actual data
+    iii)Assignment copies the reference, not the data
+    iv) can be null
+    v)Requires garbage collection when no longer needed
+    eg:object, string
+ ->Boxing : converting the value type to reference type
+    int a=10;
+    object obj=a;
+  
+ ->Unboxing: converting th reference  type to value type
+ int num2=(int)obj;
+ 3)
+ Managed Resources:managed automatically by .Net runtime and garbage collector
+ eg: List<T> ,string, object
+ Unmanaged Resource:manually call the heap by using dispose() method of IDisposable interface to free up the resource.
+ file transmission, database connection. .Net Garbage cannot handle it automatically
+ 4)Garbage Collector is automatic memory manager in .Net
+ Uses:
+ handle memory automatically no need to do manually
+ allocated objects on managed heap efficiently
+ Generation:0,1,2 to handle long lived and short lived objects seperately.
+ optimizes performance
+ prevents memory leaks
+ 
+ 
+ --------
+ Controlling Flow & converting types 
+ 1. it will return divide by zeronerror
+ 2. it will return infinity or NaN
+ 3. error. outof bound, overflow exception
+ 4.post increment , pre increment
+ 5.break will terminate the loop , continue will skip to the next iteration value, return will exit the method or function after returning a value;
+ 6. initialization, condition, increament/ decrement
+ 7. = is for assignment operator for assigning value to a variable, where as == is for condition check for equality returns true if matched and returns false if not.
+ 8. yes infinite loop
+ 9. default in switch statement
+ 10. IEnumerable
+   
+   
+   int max = 500;
+   for (byte i = 0; i < max; i++)
+   {
+       Console.WriteLine(i);
+   }
+   This code does not work because of data type mismatch
+   Process finished with exit code 130.
+int max = 500;
+
+if (max > byte.MaxValue)  // Warn if max exceeds 255
+{
+    Console.WriteLine("Warning: 'max' exceeds the byte range (0-255)");
+}
+
+for (byte i = 0; i < max; i++)  // Original loop
+{
+    Console.WriteLine(i);
+}
